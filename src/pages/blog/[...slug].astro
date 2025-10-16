@@ -1,0 +1,106 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+
+const post = Astro.props;
+const { Content } = await post.render();
+
+function formatDate(date: Date) {
+  return new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+}
+---
+
+<Layout title={post.data.title} description={post.data.description}>
+  <article class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Back to blog link -->
+      <a
+        href="/blog"
+        class="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold mb-8 transition-colors"
+      >
+        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Blog
+      </a>
+
+      <!-- Article header -->
+      <header class="mb-12">
+        <div class="flex flex-wrap gap-2 mb-6">
+          {post.data.tags.map((tag: string) => (
+            <span class="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <h1 class="font-unbounded text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          {post.data.title}
+        </h1>
+        <p class="text-xl text-gray-600 mb-6">
+          {post.data.description}
+        </p>
+        <div class="flex items-center gap-4 text-gray-600">
+          <span class="font-medium">{post.data.author}</span>
+          <span>•</span>
+          <time datetime={post.data.pubDate.toISOString()}>
+            {formatDate(post.data.pubDate)}
+          </time>
+        </div>
+      </header>
+
+      <!-- Article content -->
+      <div class="prose prose-lg prose-purple max-w-none">
+        <Content />
+      </div>
+
+      <!-- Share section -->
+      <div class="mt-12 pt-8 border-t border-gray-200">
+        <p class="text-gray-600 mb-4 font-semibold">Share this article:</p>
+        <div class="flex gap-4">
+          <a
+            href={`https://x.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent(Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
+          >
+            X
+          </a>
+          <a
+            href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-6 py-3 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <!-- Related articles -->
+      <div class="mt-16">
+        <h2 class="font-unbounded text-3xl font-bold mb-8">More Articles</h2>
+        <a
+          href="/blog"
+          class="inline-flex items-center text-purple-600 hover:text-purple-700 font-semibold transition-colors"
+        >
+          View all articles
+          <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </article>
+</Layout>
