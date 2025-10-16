@@ -33,7 +33,7 @@ const { title, description = 'Monadic DNA - Secure, open genomics' } = Astro.pro
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center h-16">
           <div class="flex-shrink-0">
-            <a href="/" class="flex items-center">
+            <a href="https://monadicdna.com/" class="flex items-center">
               <img
                 src="/Logo/Light backgrounds/Horizontal/monadicdna-horizontal-lightbg.svg"
                 alt="Monadic DNA"
@@ -41,16 +41,6 @@ const { title, description = 'Monadic DNA - Secure, open genomics' } = Astro.pro
               />
             </a>
           </div>
-          <div class="hidden md:flex space-x-8">
-            <a href="https://monadicdna.com/" class="text-gray-700 hover:text-gray-900 font-medium transition-colors">Home</a>
-            <a href="/blog" class="text-gray-700 hover:text-gray-900 font-medium transition-colors">Blog</a>
-            <a href="https://monadicdna.com/#about" class="text-gray-700 hover:text-gray-900 font-medium transition-colors">About</a>
-          </div>
-          <button class="md:hidden p-2">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
         </div>
       </div>
     </nav>
@@ -61,7 +51,7 @@ const { title, description = 'Monadic DNA - Secure, open genomics' } = Astro.pro
 
     <footer class="bg-gray-900 text-white py-12 mt-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <img
               src="/Logo/Dark backgrounds/Horizontal/monadicdna-horizontal-darkbg.svg"
@@ -73,31 +63,35 @@ const { title, description = 'Monadic DNA - Secure, open genomics' } = Astro.pro
             </p>
           </div>
           <div>
-            <h3 class="font-unbounded font-semibold mb-4">Links</h3>
-            <ul class="space-y-2 text-gray-400">
-              <li><a href="https://monadicdna.com/" class="hover:text-white transition-colors">Home</a></li>
-              <li><a href="/blog" class="hover:text-white transition-colors">Blog</a></li>
-              <li><a href="https://monadicdna.com/#about" class="hover:text-white transition-colors">About</a></li>
-            </ul>
-          </div>
-          <div>
             <h3 class="font-unbounded font-semibold mb-4">Connect</h3>
-            <div class="flex gap-4">
+            <div class="flex gap-4 flex-wrap">
               <a href="https://x.com/monadicdna" class="text-gray-400 hover:text-white transition-colors" aria-label="X">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
                 </svg>
               </a>
-              <a href="https://github.com/monadicdna" class="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
+              <a href="https://github.com/Monadic-DNA" class="text-gray-400 hover:text-white transition-colors" aria-label="GitHub">
                 <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/>
+                </svg>
+              </a>
+              <a href="https://bsky.app/profile/monadicdna.bsky.social" class="text-gray-400 hover:text-white transition-colors" aria-label="Bluesky">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/>
+                </svg>
+              </a>
+              <a href="https://farcaster.xyz/monadicdna" class="text-gray-400 hover:text-white transition-colors" aria-label="Farcaster">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 1000 1000">
+                  <path d="M257.778 155.556H742.222V844.445H671.111V528.889H670.414C662.554 441.677 589.258 373.333 500 373.333C410.742 373.333 337.446 441.677 329.586 528.889H328.889V844.445H257.778V155.556Z"/>
+                  <path d="M128.889 253.333L157.778 351.111H182.222V746.667C182.222 788.712 216.177 822.667 258.222 822.667H297.778V746.667H258.222V253.333H128.889Z"/>
+                  <path d="M871.111 253.333L842.222 351.111H817.778V746.667C817.778 788.712 783.823 822.667 741.778 822.667H702.222V746.667H741.778V253.333H871.111Z"/>
                 </svg>
               </a>
             </div>
           </div>
         </div>
         <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-          <p>&copy; {new Date().getFullYear()} Monadic DNA. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} <a href="https://recherche.tech/" class="hover:text-white transition-colors">Recherché Inc</a>. All rights reserved.</p>
         </div>
       </div>
     </footer>

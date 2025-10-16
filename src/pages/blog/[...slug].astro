@@ -97,23 +97,6 @@ function formatDate(date: Date) {
             <span>LinkedIn</span>
           </a>
 
-          <!-- Farcaster -->
-          <a
-            href={`https://warpcast.com/~/compose?text=${encodeURIComponent(post.data.title + ' ' + Astro.url.href)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
-            aria-label="Share on Farcaster"
-          >
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20.8 4.3h-1.9V2.5c0-.4-.3-.7-.7-.7H5.8c-.4 0-.7.3-.7.7v1.8H3.2c-.4 0-.7.3-.7.7v16.5c0 .4.3.7.7.7h1.9v1.3c0 .4.3.7.7.7h12.4c.4 0 .7-.3.7-.7v-1.3h1.9c.4 0 .7-.3.7-.7V5c0-.4-.3-.7-.7-.7zm-13.3 0V3.2h9V4.3h-9zm0 16.5v-1.1h9v1.1h-9zM20 19.5H4V5.7h16v13.8z"/>
-              <circle cx="8.5" cy="10" r="1.5"/>
-              <circle cx="15.5" cy="10" r="1.5"/>
-              <path d="M12 16.5c1.7 0 3.2-1 4-2.5H8c.8 1.5 2.3 2.5 4 2.5z"/>
-            </svg>
-            <span>Farcaster</span>
-          </a>
-
           <!-- Bluesky -->
           <a
             href={`https://bsky.app/intent/compose?text=${encodeURIComponent(post.data.title + ' ' + Astro.url.href)}`}
@@ -126,6 +109,22 @@ function formatDate(date: Date) {
               <path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8z"/>
             </svg>
             <span>Bluesky</span>
+          </a>
+
+          <!-- Farcaster -->
+          <a
+            href={`https://farcaster.xyz/~/compose?text=${encodeURIComponent(post.data.title + ' ' + Astro.url.href)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
+            aria-label="Share on Farcaster"
+          >
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 1000 1000">
+              <path d="M257.778 155.556H742.222V844.445H671.111V528.889H670.414C662.554 441.677 589.258 373.333 500 373.333C410.742 373.333 337.446 441.677 329.586 528.889H328.889V844.445H257.778V155.556Z"/>
+              <path d="M128.889 253.333L157.778 351.111H182.222V746.667C182.222 788.712 216.177 822.667 258.222 822.667H297.778V746.667H258.222V253.333H128.889Z"/>
+              <path d="M871.111 253.333L842.222 351.111H817.778V746.667C817.778 788.712 783.823 822.667 741.778 822.667H702.222V746.667H741.778V253.333H871.111Z"/>
+            </svg>
+            <span>Farcaster</span>
           </a>
         </div>
       </div>
