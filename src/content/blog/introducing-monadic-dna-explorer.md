@@ -6,19 +6,21 @@ author: "Monadic DNA Team"
 tags: ["privacy", "genomics", "GWAS", "AI", "tools"]
 ---
 
-We're excited to announce the launch of [Monadic DNA Explorer](https://explorer.monadicdna.com/), a powerful new tool that brings privacy-preserving genomic analysis directly to your browser.
+We're excited to announce the launch of [Monadic DNA Explorer](https://explorer.monadicdna.com/), a privacy-first tool that lets you explore your genetic data and dive into genome-wide association studies—all in your browser, with your data never leaving your device.
 
 ## What is Monadic DNA Explorer?
 
-Monadic DNA Explorer is a privacy-first application that allows you to explore genetic traits from the GWAS Catalog and analyze your own genomic data, all without ever sending your personal information to our servers.
+Monadic DNA Explorer gives you access to approximately one million genetic trait associations from the GWAS Catalog. Whether you're curious about your 23andMe data, conducting research, or just fascinated by genomics, you can explore real scientific studies and see how they relate to your own genome—without sending your personal information to our servers.
 
 ### Key Features
 
 **Comprehensive Scientific Data**
-The app uses publicly-funded, scientifically-vetted data from the [GWAS Catalog](https://www.ebi.ac.uk/gwas/), giving you access to approximately one million genetic trait associations. Our filtering interface makes it easy to sift through this vast database and find the traits that interest you.
+The app uses publicly-funded, scientifically-vetted data from the [GWAS Catalog](https://www.ebi.ac.uk/gwas/). Searching through a million trait associations can be overwhelming, so we built a powerful filtering interface to help you find what you're looking for—whether that's traits related to a specific condition, studies above a certain sample size, or associations with strong statistical support.
+
+Every study links directly to the original GWAS Catalog entry and the corresponding [dbSNP](https://www.ncbi.nlm.nih.gov/snp/) record, where you can find detailed variant information including genomic locations and population frequencies.
 
 **Quality Assessment and Data Labels**
-Based on sample size, statistical significance, and data quality, we label each study with a quality assessment to guide you toward more credible results. We also add clear labels to relevance, power, and effect data to help you interpret the findings appropriately.
+Not all GWAS studies are created equal. Based on sample size, statistical significance, and data quality, we label each study with a quality assessment to help you focus on the most credible results. We also surface key metrics like effect size and statistical power so you can understand the strength of each association.
 
 **Bring Your Own Data**
 You can plug in your own genomic data from popular providers like 23andMe, Ancestry, and others. Once loaded, you can reveal your personalized results for each GWAS Catalog record based on your own genotype to gauge your risk for various traits.
@@ -42,12 +44,15 @@ Throughout the app, we provide repeated notices at each step to remind users tha
 
 We seek to achieve a balance between democratizing access to educational genomic data while ensuring users get the institutional help they need. Our goal is to empower informed exploration, not to replace professional medical guidance.
 
-## Who Is This For?
+## Use Cases
 
-Monadic DNA Explorer is designed to make life easier for:
-- **Personal genomics enthusiasts** who want to explore their data privately
-- **Researchers** who need to examine GWAS Catalog data efficiently
-- **Privacy-conscious individuals** interested in genetic analysis
+**For the Curious**
+Got your 23andMe or Ancestry data and wondering what it actually means? Explorer lets you see the real studies behind genetic associations, understand which ones are well-supported, and learn what researchers have discovered about traits in your genome. All processing happens locally in your browser—your data never leaves your device.
+
+**For Researchers and Students**
+Whether you're doing literature review, teaching GWAS methodology, or exploring hypothesis spaces, Explorer provides a fast way to navigate the GWAS Catalog's million+ associations. Filter by trait, sample size, p-value, or effect size. Direct links to GWAS Catalog and dbSNP make it easy to dive deeper into studies of interest.
+
+The upcoming bulk analysis feature will let you systematically examine hundreds of traits at once.
 
 ## Coming Soon
 
@@ -61,7 +66,7 @@ Want to see how it works? Watch a recording of our first public demo at [x.com/N
 
 ## Get Started
 
-Ready to explore your genomic data privately? Visit [explorer.monadicdna.com](https://explorer.monadicdna.com/) and start your journey into privacy-preserving genomics today.
+Visit [explorer.monadicdna.com](https://explorer.monadicdna.com/) to start exploring.
 
 ---
 
@@ -71,4 +76,4 @@ We are deeply grateful for the public funding of science and the valuable open s
 
 ## Get Involved
 
-Have questions or feedback? We'd love to hear from you, especially bug reports and feedback from researchers. Join the conversation in our community at [recherche.discourse.group/c/public/monadic-dna/30](https://recherche.discourse.group/c/public/monadic-dna/30).
+Have questions or feedback? We'd love to hear from you, especially bug reports and feedback from researchers. Join the conversation in our [Discourse forum](https://recherche.discourse.group/c/public/monadic-dna/30).
