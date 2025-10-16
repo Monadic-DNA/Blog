@@ -18,9 +18,14 @@ function formatDate(date: Date) {
 <Layout title="Monadic DNA" description="Latest insights on privacy-preserving genomics, cryptography, and secure computation">
   <section class="py-20">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="font-unbounded text-4xl md:text-5xl font-bold mb-12">
-        Monadic DNA
-      </h1>
+      <!-- Blind Computation Image -->
+      <div class="mb-12 flex justify-center">
+        <img
+          src="/Illustrations/Blind Computation v1.svg"
+          alt="Blind Computation"
+          class="w-48 h-48 object-contain opacity-80"
+        />
+      </div>
 
       <div class="space-y-12">
         {posts.map((post) => (
