@@ -20,9 +20,9 @@ This blog showcases Monadic DNA's work in privacy-preserving genomics, cryptogra
 ```text
 /
 ├── public/
-│   ├── Logo/              # Monadic DNA logos (light/dark variants)
-│   ├── Illustrations/     # Visual assets
-│   └── Social/           # Social media images
+│   ├── Logo/             # Monadic DNA logos (light/dark variants)
+│   ├── Social/           # Social media images
+│   └── favicon.svg       # Site favicon
 ├── src/
 │   ├── content/
 │   │   ├── blog/         # Blog post markdown files
@@ -90,4 +90,8 @@ The site can be deployed to any static hosting service:
 
 ## 📄 License
 
-Copyright © 2025 Monadic DNA. All rights reserved.
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt the content with proper attribution to Monadic DNA.
+
+Copyright © 2025 Monadic DNA.
