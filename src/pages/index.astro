@@ -21,7 +21,7 @@ function formatDate(date: Date) {
       <div class="space-y-12">
         {posts.map((post) => (
           <article class="border-b border-gray-200 pb-12 last:border-b-0">
-            <a href={`/blog/${post.slug}`} class="group block mb-6">
+            <a href={`/${post.slug}`} class="group block mb-6">
               {post.data.image && (
                 <img
                   src={post.data.image}
@@ -52,7 +52,7 @@ function formatDate(date: Date) {
               {post.data.description}
             </p>
             <a
-              href={`/blog/${post.slug}`}
+              href={`/${post.slug}`}
               class="inline-flex items-center text-purple-600 font-semibold hover:text-purple-700 transition-colors"
             >
               Read more →
