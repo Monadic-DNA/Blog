@@ -1,7 +1,7 @@
 ---
 title: "Introducing Monadic DNA Explorer: Private genomic analysis with secure A.I."
 description: "A privacy-first genomics tool that lets you explore  GWAS Catalog data and analyze your genetic information entirely in your browser, with optional secure A.I. analysis."
-pubDate: 2025-10-16
+pubDate: 2025-10-17
 author: "Monadic DNA Team"
 tags: ["privacy", "genomics", "GWAS", "A.I.", "announcement"]
 image: "/Screenshots/20251016_explorer_main.png"
