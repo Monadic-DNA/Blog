@@ -4,6 +4,7 @@ description: "A privacy-first genomics tool that lets you explore  GWAS Catalog 
 pubDate: 2025-10-16
 author: "Monadic DNA Team"
 tags: ["privacy", "genomics", "GWAS", "A.I.", "announcement"]
+image: "/Screenshots/20251016_explorer_main.png"
 ---
 
 We're excited to announce the launch of [Monadic DNA Explorer](https://explorer.monadicdna.com/), a privacy-first tool that lets you explore your genetic data and dive into genome-wide association studies, all in your browser with your data never leaving your device.

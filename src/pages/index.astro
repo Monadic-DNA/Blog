@@ -21,7 +21,14 @@ function formatDate(date: Date) {
       <div class="space-y-12">
         {posts.map((post) => (
           <article class="border-b border-gray-200 pb-12 last:border-b-0">
-            <a href={`/blog/${post.slug}`} class="group">
+            <a href={`/blog/${post.slug}`} class="group block mb-6">
+              {post.data.image && (
+                <img
+                  src={post.data.image}
+                  alt={post.data.title}
+                  class="w-full h-64 object-cover rounded-lg mb-4 group-hover:opacity-90 transition-opacity"
+                />
+              )}
               <h2 class="font-unbounded text-2xl md:text-3xl font-bold mb-3 text-gray-900 group-hover:text-purple-600 transition-colors">
                 {post.data.title}
               </h2>
