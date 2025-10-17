@@ -1,9 +1,9 @@
 ---
-title: "Introducing Monadic DNA Explorer: Private genomic analysis with secure A.I."
-description: "A privacy-first genomics tool that lets you explore  GWAS Catalog data and analyze your genetic information entirely in your browser, with optional secure A.I. analysis."
+title: "Introducing Monadic DNA Explorer: Private genomic analysis with secure AI"
+description: "A privacy-first genomics tool that lets you explore  GWAS Catalog data and analyze your genetic information entirely in your browser, with optional secure AI analysis."
 pubDate: 2025-10-17
 author: "Monadic DNA Team"
-tags: ["privacy", "genomics", "GWAS", "A.I.", "announcement"]
+tags: ["privacy", "genomics", "GWAS", "AI", "announcement"]
 image: "/Screenshots/20251016_explorer_main.png"
 ---
 
@@ -33,12 +33,12 @@ You can plug in your own genomic data from popular providers like 23andMe, Ances
 **Privacy by Design**
 All user data processing happens locally in your browser. Results are stored transiently in memory, and you have complete control with the option to export and import results from disk. **Monadic DNA never handles user data on our servers.** The app maximizes anonymity and privacy at every step.
 
-**Secure A.I. Analysis**
-Using nilA.I. from [Nillion](https://nillion.com/), we offer secure A.I. analysis where large language models running inside secure Trusted Execution Environments (TEEs) process your data. This means you can get A.I.-powered insights without exposing your genomic information.
+**Secure Automated Analysis**
+Using nilAI from [Nillion](https://nillion.com/), we offer secure analysis where large language models running inside secure Trusted Execution Environments (TEEs) process your data. This means you can get machine-powered insights without exposing your genomic information.
 
-![A.I. analysis of a user trait 1](/Screenshots/20251016_explorer_ai_analysis.png)
+![AI analysis of a user trait 1](/Screenshots/20251016_explorer_ai_analysis.png)
 
-The A.I. analysis provides you with an overview of the study in question, information about the corresponding trait, an explanation of your own risk calculation based on your genotype, and important caveats around interpretation. The A.I. uses your other traits as context to provide more personalized insights. Of course, the A.I. analysis reminds you about the limitations of the data and encourages you to always go through regular medical channels for health concerns.
+The LLM analysis provides you with an overview of the study in question, information about the corresponding trait, an explanation of your own risk calculation based on your genotype, and important caveats around interpretation. The LLM uses your other traits as context to provide more personalized insights. Of course, the LLM analysis reminds you about the limitations of the result data and encourages you to always go through regular medical channels for health concerns.
 
 **Open Source**
 The app is fully open source, and the code is available at [github.com/Monadic-DNA/Explorer](https://github.com/Monadic-DNA/Explorer). We believe in transparency and welcome contributions from the community.
@@ -53,7 +53,7 @@ Throughout the app, we provide repeated notices at each step to remind users tha
 
 We seek to achieve a balance between democratizing access to educational genomic data while ensuring users get the institutional help they need. Our goal is to empower informed exploration, not to replace professional medical guidance.
 
-![A.I. analysis caveats](/Screenshots/20251016_explorer_ai_analysis_disclaimer.png)
+![AI analysis caveats](/Screenshots/20251016_explorer_ai_analysis_disclaimer.png)
 
 ## Use Cases
 
@@ -67,7 +67,7 @@ Whether you're doing literature review, teaching GWAS methodology, or exploring 
 
 We're working on exciting new features, including:
 - **Bulk analysis**: Run an analysis over all available traits in the database
-- **A.I.-powered insights**: Ask the A.I. to process hundreds of traits at once for comprehensive reports
+- **LLM-powered bulk insights**: Ask the LLM to process hundreds of traits at once for comprehensive reports
 
 ## See It In Action
 
