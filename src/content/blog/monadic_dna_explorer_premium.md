@@ -11,11 +11,11 @@ image: "/Screenshots/premium_features.png"
 
 *A new way to understand your genetics, built on privacy, performance, and the power of large language models.*
 
-Monadic DNA Explorer Premium introduces a faster and more intuitive way to explore your genome without compromising on privacy. This release brings two major capabilities, Run All Analysis and LLM-Powered Genetic Chat, that work together to transform raw genotype data into meaningful insights while keeping your information where it belongs: on your device.
+[Monadic DNA Explorer Premium](https://explorer.monadicdna.com/) introduces a faster and more intuitive way to explore your genome without compromising on privacy. This release brings two major capabilities, Run All Analysis and LLM-Powered Genetic Chat, that work together to transform raw genotype data into meaningful insights while keeping your information where it belongs: on your device.
 
 ## A complete genetic picture, instantly
 
-Run All Analysis offers a comprehensive view of your genome. Instead of exploring traits one by one, your genetic file is processed against the entire GWAS Catalog in a single operation. Everything happens locally in your browser, so your data never touches our servers. Within moments you can explore broad patterns, investigate areas of interest, and see your genetic landscape clearly.
+Run All Analysis offers a comprehensive view of your genome. Instead of exploring traits one by one, your genetic file is processed against the entire [GWAS Catalog](https://www.ebi.ac.uk/gwas/) of more than one million traits in a single operation. Everything happens locally in your browser, so your data never touches our servers. Within moments you can explore broad patterns, investigate areas of interest, and see your genetic landscape clearly.
 
 ## Conversational insights powered by context
 
@@ -27,7 +27,7 @@ Supporting documents such as health notes or lab summaries can also be uploaded 
 
 Your genetic file remains on your device from the moment you upload it. Genotype processing, result generation, and data storage all occur locally. When an LLM is involved, the only information sent out is a compact text summary of the traits relevant to your question. Your raw genetics are never transmitted.
 
-Both free and premium users can choose how their data is processed by selecting an LLM provider that matches their privacy preferences. Nillion’s Confidential Cloud uses secure enclaves that prevent Cloud operators from inspecting your data. Ollama allows you to run models entirely on your own hardware and requires 16 GB of VRAM or more. HuggingFace provides access to a wide selection of cutting edge open-source models hosted in the Cloud for users who want flexibility and performance.
+Both free and premium users can choose how their data is processed by selecting an LLM provider that matches their privacy preferences. Nillion’s [nilAI](https://docs.nillion.com/learn/blind-modules#nilai) uses secure enclaves that prevent Cloud operators from inspecting your data. [Ollama](https://ollama.com/) allows you to run models entirely on your own hardware if you have 16 GB or more of video memory. HuggingFace provides access to a [wide selection](https://huggingface.co/models) of cutting edge open-source models hosted in the Cloud for users who want flexibility and performance.
 
 You can switch providers at any time in the LLM Settings menu.
 
@@ -53,7 +53,7 @@ Students, educators, and researchers can request discounted or complimentary Pre
 
 ## A note on interpretation
 
-Monadic DNA Explorer is designed for learning and exploration. GWAS findings reflect population-level associations and should not be interpreted as predictions of personal disease risk. For medical guidance or decisions, you should always consult qualified healthcare professionals.
+Monadic DNA Explorer is designed for learning and exploration. GWAS findings reflect population-level associations and should not be interpreted as predictions of personal disease risk. For medical guidance or decisions, you should always consult qualified healthcare professionals. All LLM prompts are tailored to avoid referrals to medical professionals and labs unless critical to avoid flooding the medical system.
 
 ## Get started
 
