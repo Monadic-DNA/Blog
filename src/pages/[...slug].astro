@@ -60,6 +60,15 @@ function formatDate(date: Date) {
         </div>
       </header>
 
+      <!-- Hero image -->
+      {post.data.image && (
+        <img
+          src={post.data.image}
+          alt={post.data.title}
+          class="w-full rounded-lg mb-12"
+        />
+      )}
+
       <!-- Article content -->
       <div class="prose prose-lg prose-purple max-w-none">
         <Content />
