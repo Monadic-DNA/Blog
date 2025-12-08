@@ -13,15 +13,29 @@ image: "/banners/explorer_controller_of_the_universe.png"
 
 [Monadic DNA Explorer Premium](https://explorer.monadicdna.com/) introduces a faster and more intuitive way to explore your genome without compromising on privacy. This release brings two major capabilities, Run All Analysis and LLM-Powered Genetic Chat, that work together to transform raw genotype data into meaningful insights while keeping your information where it belongs: on your device.
 
+![The new Premium tab](/Screenshots/20251208_explorer_premium.png)
+
 ## A complete genetic picture, instantly
 
 Run All Analysis offers a comprehensive view of your genome. Instead of exploring traits one by one, your genetic file is processed against the entire [GWAS Catalog](https://www.ebi.ac.uk/gwas/) of more than one million traits in a single operation. Everything happens locally in your browser, so your data never touches our servers. Within moments you can explore broad patterns, investigate areas of interest, and see your genetic landscape clearly.
+
+<video controls width="100%">
+  <source src="/Screenshots/20251208_explorer_run_all.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Conversational insights powered by context
 
 Premium introduces a new kind of interaction through LLM-Powered Genetic Chat. You can ask a question in natural language such as “How is my sleep profile?”, “What athletic traits stand out for me?”, or “What foods might I prefer?”. The system builds a personalized context window specific to your question. It uses semantic search to select as many as 500 relevant traits from your results, allowing the LLM to form a deep and multidimensional understanding of your genetic profile. The experience feels less like querying a tool and more like speaking with a knowledgeable guide who understands your data holistically.
 
 Supporting documents such as health notes or lab summaries can also be uploaded to provide additional context. The model incorporates this information while preserving the privacy guarantees that define Monadic DNA Explorer.
+
+
+<video controls width="100%">
+  <source src="/Screenshots/20251208_explorer_llm_chat.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 
 ## Privacy first, always
 
@@ -38,6 +52,8 @@ Premium allows you to add optional personal context such as ancestry, lifestyle 
 ## New experimental capabilities
 
 For users who want a synthesized, high-level view of their genetics, Premium includes early access to Overview Reports. This feature uses a map-reduce analysis pipeline to assemble insights across large sets of traits and generate a cohesive narrative summary. As this feature is experimental, performance and depth will continue to improve. Even today, it provides a more integrated interpretation of your genetics.
+
+![The experimental overview report](/Screenshots/20251208_explorer_overview_report.png)
 
 ## Powerful features for everyone
 
