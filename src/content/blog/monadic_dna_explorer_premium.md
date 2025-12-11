@@ -1,7 +1,7 @@
 ---
 title: "Monadic DNA Explorer Premium: Local genetic analysis with LLM-powered insights"
 description: "Unlock comprehensive genetic analysis with LLM chat, Run All analysis, and experimental overview reports, all while maintaining our privacy-first approach with local processing."
-pubDate: 2025-12-09T12:00:00-05:00
+pubDate: 2025-12-15T12:00:00-05:00
 author: "Monadic DNA Team"
 tags: ["LLM", "premium", "announcement"]
 image: "/banners/explorer_controller_of_the_universe.png"
