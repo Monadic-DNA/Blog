@@ -4,7 +4,7 @@ description: "Unlock comprehensive genetic analysis with LLM chat, Run All analy
 pubDate: 2025-12-15T12:00:00-05:00
 author: "Monadic DNA Team"
 tags: ["LLM", "premium", "announcement"]
-image: "/banners/explorer_controller_of_the_universe.png"
+image: "Screenshots/20251208_explorer_premium.png"
 ---
 
 # Introducing Monadic DNA Explorer Premium
