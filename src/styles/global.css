@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Unbounded:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
 @layer base {
@@ -8,7 +8,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -18,7 +18,7 @@
   }
 
   .font-unbounded {
-    font-family: 'Unbounded', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   .gradient-bg {
@@ -36,17 +36,17 @@
 }
 
 .prose h1 {
-  font-family: 'Unbounded', sans-serif;
+  font-family: 'Inter', sans-serif;
   @apply text-4xl font-bold mt-12 mb-6 text-gray-900;
 }
 
 .prose h2 {
-  font-family: 'Unbounded', sans-serif;
+  font-family: 'Inter', sans-serif;
   @apply text-3xl font-bold mt-10 mb-4 text-gray-900;
 }
 
 .prose h3 {
-  font-family: 'Unbounded', sans-serif;
+  font-family: 'Inter', sans-serif;
   @apply text-2xl font-semibold mt-8 mb-3 text-gray-900;
 }
 
